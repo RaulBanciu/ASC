@@ -1,0 +1,22 @@
+2a)((a+b-c)*2 + d-5)*d
+2b)a*d+b*c
+3a)2/(a+b*c-9)+e-d
+a,b,c-byte; d-doubleword; e-qword
+3b)2/(a+b*c-9)+e-d
+a,b,c-byte; d-doubleword; e-qword
+4)Se dau cuvintele A si B. Sa se obtina dublucuvantul C:
+bitii 0-4 ai lui C coincid cu bitii 11-15 ai lui A
+bitii 5-11 ai lui C au valoarea 1
+bitii 12-15 ai lui C coincid cu bitii 8-11 ai lui B
+bitii 16-31 ai lui C coincid cu bitii lui A
+5)Sa se citeasca de la tastatura doua numere (in baza 10) 
+si sa se calculeze produsul lor. Rezultatul inmultirii 
+se va salva in memorie in variabila "rezultat" (definita in segmentul de date).
+6)Se dau doua siruri de octeti S1 si S2. Sa se construiasca sirul D prin concatenarea elementelor din sirul S1 1uate de la stanga spre dreapta si a elementelor din sirul S2 luate de la dreapta spre stanga. 
+Exemplu:
+S1: 1, 2, 3, 4
+S2: 5, 6, 7
+D: 1, 2, 3, 4, 7, 6, 5
+7)Se dau doua siruri de caractere ordonate alfabetic s1 si s2. Sa se construiasca prin interclasare sirul ordonat s3 care sa contina toate elementele din s1 si s2.
+9)Se dau un nume de fisier si un text (definite in segmentul de date). Textul contine litere mici, litere mari, cifre si caractere speciale. Sa se inlocuiasca toate caracterele speciale din textul dat cu caracterul 'X'. 
+Sa se creeze un fisier cu numele dat si sa se scrie textul obtinut in fisier.
